@@ -1,6 +1,5 @@
 
 #include <iostream>
-#include <iomanip>
 using namespace std;
 
 int main() {
@@ -17,8 +16,6 @@ int main() {
 
     cout << "Enter your choice (1-4): ";
     cin >> choice;
-
-    cout << fixed << setprecision(5);
 
     if (choice == 1) {
         cout << "Enter the radius: ";
@@ -71,4 +68,3 @@ int main() {
 
     return 0;
 }
-
